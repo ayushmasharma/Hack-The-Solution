@@ -1,3 +1,10 @@
+/*
+
+Tooplate 2119 Gymso Fitness
+
+https://www.tooplate.com/view/2119-gymso-fitness
+
+*/
 
   @font-face {
       font-family: 'Plain';
@@ -166,34 +173,6 @@
     color: var(--white-color);
   }
 
-
-  #about {
-    background: url('../images/about.jpg') no-repeat top center;
-    background-size: cover;
-    padding-top: 150px;
-    padding-bottom: 150px;
-  }
-
-  .profile img,
-  .profile figcaption {
-    display: inline-block;
-    vertical-align: top;
-    margin-top: 1em;
-  }
-  .profile img {
-    border-radius: 100%;
-    width: 65px;
-    height: 65px;
-    margin-right: 1em;
-  }
-  .profile figcaption h3 {
-    margin-top: 0;
-  }
-
-  #about h6 {
-    color: #858585;
-    margin: 0;
-  }
 
 
   /*---------------------------------------
@@ -418,6 +397,7 @@
     background: var(--primary-color);
     border-radius: var(--border-radius-large);
     color: var(--white-color);
+    font-size:1.5rem;
     font-weight: var(--font-weight-bold);
     display: block;
     position: absolute;
@@ -427,7 +407,14 @@
     height: 3.5rem;
     line-height: 3.5rem;
     text-align: center;
+
   }
+
+  .class-price:hover{
+   color:white;
+  }
+
+  
 
 
   /*---------------------------------------

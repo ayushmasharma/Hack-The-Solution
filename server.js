@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname + '/index.html'));
 });
 
-app.post('/', (req, res) => {
+app.post('/contact', (req, res) => {
     console.log('post route working');
     res.sendFile(path.join(__dirname + '/index.html'));
 });
